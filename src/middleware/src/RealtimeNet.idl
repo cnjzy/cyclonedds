@@ -1,0 +1,9 @@
+module RealtimeNetData
+{
+  struct Msg
+  {
+    @key
+    long offset;
+	sequence<char> msg;
+  };
+};
